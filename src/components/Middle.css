@@ -1,0 +1,17 @@
+.middle-container {
+  display: grid;
+  grid-template-rows: 50px auto auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.title {
+  color: hsl(228, 39%, 23%);
+  justify-self: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+#middle-btn {
+  margin-top: 40px;
+  justify-self: center;
+}

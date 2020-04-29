@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam&display=swap");
+
+.bottom-container {
+  background-color: hsl(12, 88%, 59%);
+  display: flex;
+  margin-top: 200px;
+  height: 200px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+h1 {
+  color: hsl(13, 100%, 96%);
+  font-family: Be Vietnam;
+  font-size: 35px;
+}
+#bt-btn {
+  background-color: hsl(13, 100%, 96%);
+  color: hsl(12, 88%, 59%);
+  border-color: hsl(13, 100%, 96%);
+}

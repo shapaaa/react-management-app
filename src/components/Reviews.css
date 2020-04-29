@@ -1,0 +1,49 @@
+.user-img {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  top: 35px;
+}
+.scroll-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 0px 20px 10px;
+}
+.scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.review-container1 {
+  justify-content: center;
+  margin: 0 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+.user-name {
+  color: hsl(233, 12%, 13%);
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.user-review {
+  color: hsl(227, 12%, 61%);
+  font-size: 16px;
+  word-spacing: 1px;
+  line-height: 22px;
+}
+.review-container2 {
+  background-color: hsl(0, 0%, 98%);
+  height: 200px;
+  width: 400px;
+  padding: 0px 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 30px grey;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

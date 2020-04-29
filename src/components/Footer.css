@@ -1,0 +1,50 @@
+.ft-container {
+  display: grid;
+  grid-template: 200px/30% 20% 20% 30%;
+  background-color: hsl(233, 12%, 13%);
+  align-items: center;
+  padding-left: 60px;
+}
+#ful {
+  margin-top: 20px;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+}
+.ft-li {
+  color: hsl(13, 100%, 96%);
+  padding: 5px;
+  align-self: flex-start;
+}
+#ft-small {
+  height: 38px;
+}
+#ft-small:hover {
+  cursor: pointer;
+}
+.ft-li:hover {
+  cursor: pointer;
+  color: hsl(12, 88%, 59%);
+}
+.input-container {
+  display: flex;
+  align-items: center;
+}
+.ft-input {
+  margin-top: 10px;
+  height: 30px;
+  border-radius: 30px;
+  border-color: hsl(12, 88%, 59%);
+}
+.ft-ul {
+  display: flex;
+  flex-direction: column;
+}
+.ft-img {
+  /* filter: opacity(1) hue-rotate(100%) invert(100%); */
+  /* filter: brightness(100%)opacity(1) invert(10s0%)
+    drop-shadow(0 0 0 white); */
+  filter: invert(100%) sepia(77%) saturate(2%) hue-rotate(278deg)
+    brightness(112%) contrast(101%);
+}

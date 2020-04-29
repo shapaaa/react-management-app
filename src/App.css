@@ -6,6 +6,31 @@
   padding: 0;
   margin: 0;
 }
+.app {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: hsl(12, 88%, 59%);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+}
 
 /* .App-logo {
   height: 40vmin;
